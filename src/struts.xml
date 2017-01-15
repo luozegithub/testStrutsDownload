@@ -17,7 +17,9 @@
 		<action name="Demo1Action" class="cn.luoze.Demo1Action">
 			<result>/index.jsp</result>
 			<result name="input">/index.jsp</result>
-</action><action name="Demo2Action" class="cn.luoze.Demo2Action">
+		</action>
+
+		<action name="Demo2Action" class="cn.luoze.Demo2Action">
 			<result type="stream">
 				<param name="contentType">application/zip</param>
 				<param name="inputName">zip</param>
